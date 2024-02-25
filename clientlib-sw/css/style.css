@@ -1,0 +1,63 @@
+.social-media-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram-posts,
+.facebook-posts {
+  flex: 1;
+}
+
+
+.instagram-posts,
+.facebook-posts {
+  margin-bottom: 20px;
+}
+
+/* Style for post headings */
+.instagram-posts h2,
+.facebook-posts h2 {
+  font-size: 1.5em;
+  color: #c7c5c5;
+}
+
+/* Style for individual posts */
+.instagram-posts li,
+.facebook-posts li {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex; 
+}
+
+/* Style for post images */
+.instagram-posts img,
+.facebook-posts img {
+  max-width: 100px; 
+  height: auto;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* Style for post text container */
+.post-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Style for post heading (h3) */
+.instagram-posts h3,
+.facebook-posts h3 {
+  margin: 0;
+  margin-bottom: 5px; 
+}
+
+/* Style for post paragraph (p) */
+.instagram-posts p,
+.facebook-posts p {
+  margin: 0;
+}
+
